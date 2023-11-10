@@ -384,6 +384,7 @@ main {
     width: 80vw;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .content h3 {
@@ -407,6 +408,7 @@ main {
     padding-top: 25px;
     padding-left: 30px;
     width: 40vw;
+
     height: 520px;
     display: flex;
     /* background-color: blue; */
@@ -529,4 +531,384 @@ footer {
     justify-content: center;
     background-color: gray;
     margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cizgi-menu {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.cizgi-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.cizgi-menu ul li {
+    padding: 10px;
+}
+
+.cizgi-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+}
+
+.cizgi-menu ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.cizgi-menu span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: orange;
+}
+
+.kapsa-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-bottom: 500px;
+}
+
+.kapsa-start {
+    float: left;
+    width: 39%;
+    height: 700px;
+}
+
+.kapsa-start ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+
+.kapsa-start ul li {
+
+    margin-left: 10px;
+    border: 2px solid rgb(239, 235, 235);
+    border-radius: 10px;
+
+}
+
+.kapsa-start img {
+    width: 48px;
+    border-radius: 7px;
+    height: 70px;
+}
+
+.kapsa-start ul li:hover {
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+
+.kapsa-middle {
+    width: 40%;
+    height: 700px;
+    padding: 10px 5px;
+}
+
+.kapsa-middle h2 {
+    font-weight: 100;
+    font-size: 19px;
+}
+
+.kapsa-middle h2 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.kapsa-middle-text {
+    width: 100%;
+}
+
+.kapsa-middle-textt {
+    width: 100%;
+    margin-top: 2%;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+.kapsa-middle-textt a {
+    text-decoration: none;
+    color: grey;
+}
+
+.kapsa-middle-textt a:hover {
+    border-bottom: 1px solid grey;
+}
+
+.kapsa-middle-textt img {
+    width: 20px;
+
+    height: 15px;
+}
+
+.kapsa-middle-textt h3 {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.fiyat-box {
+    width: 100%;
+    height: 100px;
+    margin-top: 2%;
+    /* background-color: blue; */
+}
+
+.fiyat-box-inside {
+    margin-top: 3%;
+    width: 230px;
+    height: 60px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.fiyat-box-inside h2 {
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+}
+
+.fiyat-box-inside-1 {
+    display: flex;
+    width: 95%;
+    margin-left: 7px;
+    margin-top: 1%;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #FEEAEA;
+}
+
+.fiyat-box-inside-1 span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.middle-hafiza {
+    margin-bottom: 5px;
+}
+
+.middle-hafiza h2 {
+    margin-top: 1%;
+    font-size: 16px;
+
+}
+
+.middle-hafizalar {
+    display: flex;
+    padding: 5px;
+}
+
+.middle-hafizalar h2 a {
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 3px 5px;
+    margin: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.middle-hafizalar h2 a:hover {
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.renk-phones {
+    margin-top: 5%;
+}
+
+.renk-phones h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.renk-phones h2 i {
+    font-size: 12px;
+    margin-left: 1%;
+    color: grey;
+}
+
+.renk-phones-section {
+    margin-top: 1%;
+}
+
+.renk-phones-section img {
+    width: 48px;
+    height: 75px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.renk-phones-section span a img:hover {
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.sepet-container {
+    width: 100%;
+    display: flex;
+}
+
+.sepet-btn {
+    margin-top: 3%;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    background-color: orange;
+}
+
+.sepet-btn:hover {
+    background-color: #B84F0A;
+}
+
+.sepet-btn h3 a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sepet-btn h3 a:hover {
+    background-color: #B84F0A;
+}
+
+.sepet-icon {
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 10px;
+}
+
+.sepet-icon i {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.sepet-icon:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    border-radius: 50%;
+}
+
+.sepet-icon i:hover {
+    color: orange;
+}
+
+.kargo {
+    width: 90%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #EFFBF5;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.kargo i {
+
+    margin-left: 2%;
+    margin-right: 1%;
+    color: #0BC15C;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.kargo p {
+    font-size: 14px;
+}
+
+.kargo span {
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.sigorta-phone {
+
+    width: 100%;
+    margin-top: 4%;
+}
+
+.sigorta-phone p {
+    width: 100%;
+    font-size: 15px;
+    margin-left: 2%;
+    font-weight: 500;
+}
+
+.sigorta-garanti {
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 60%;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    border-radius: 9px;
+}
+.sigorta-garanti:hover{
+    border: 1px solid orange;
+}
+.sigorta-garanti p{
+    margin-left: 4%;
+}
+.sigorta-garanti img {
+    width: 130px;
+    margin-left: 3%;
+    margin-top: 5%;
+}.sigorta-garanti p{
+    font-size: 15x ;
+}
+.sigorta-garanti p i{
+    margin-left: 2%;
+    color: orange;
+}
+.sigorta-garanti p span{
+    color: orange;
+    margin-left: 3%;
+}.iconsals{
+    margin-top: 2%;
+}
+.iconsals p i{
+    color: gray;
+    font-size: 5px;
+    text-align: center;
+    padding: 2px;
+}
+.iconsals p{
+    font-size:10px;
+    color: gray;
+
+}
+.kapsa-end {
+    width: 21%;
+    height: 700px;
+    background-color: yellow;
 }
