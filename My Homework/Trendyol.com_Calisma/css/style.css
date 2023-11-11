@@ -641,9 +641,13 @@ footer {
     width: 100%;
     margin-top: 2%;
     font-size: 12px;
+    font-weight: 500;
     align-items: center;
 }
 
+.kapsa-middle-textt i {
+    color: #FFC000;
+}
 
 .kapsa-middle-textt a {
     text-decoration: none;
@@ -873,42 +877,237 @@ footer {
     transition: box-shadow 0.3s ease;
     border-radius: 9px;
 }
-.sigorta-garanti:hover{
+
+.sigorta-garanti:hover {
     border: 1px solid orange;
 }
-.sigorta-garanti p{
+
+.sigorta-garanti p {
     margin-left: 4%;
 }
+
 .sigorta-garanti img {
     width: 130px;
     margin-left: 3%;
     margin-top: 5%;
-}.sigorta-garanti p{
-    font-size: 15x ;
 }
-.sigorta-garanti p i{
+
+.sigorta-garanti p {
+    font-size: 15x;
+}
+
+.sigorta-garanti p i {
     margin-left: 2%;
     color: orange;
 }
-.sigorta-garanti p span{
+
+.sigorta-garanti p span {
     color: orange;
     margin-left: 3%;
-}.iconsals{
+}
+
+.iconsals {
     margin-top: 2%;
 }
-.iconsals p i{
+
+.iconsals p i {
     color: gray;
     font-size: 5px;
     text-align: center;
     padding: 2px;
 }
-.iconsals p{
-    font-size:10px;
+
+.iconsals p {
+    font-size: 10px;
     color: gray;
 
 }
+
+.ozellikler {
+    width: 100%;
+    display: flex;
+
+    float: left;
+}
+
+.ozellikler-content {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin: 5px;
+    height: 70px;
+    background-color: #F5F5F5;
+}
+
+.ozellikler-content span {
+    display: flex;
+    font-size: 12px;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-weight: 400;
+    color: #666666;
+}
+
+.ozellikler-content p {
+    font-size: 14px;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+
 .kapsa-end {
     width: 21%;
     height: 700px;
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kurumsal {
+    width: 100%;
+    height: 70px;
+    background-color: #EBF5FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kurumsal i{
+    float: left;
+    margin-top: 1%;
+    margin-left: 4%;
+    font-size: 16px;
+    margin-right: 2%;
+    display: inline-block;
+    color: #1F6BC1;
+}
+
+.kurumsal h4 {
+    float: left;
+
+    font-size: 15px;
+}
+
+.kurumsal h5 {
+    clear: both;
+    font-size: 11px;
+    margin-top: 12%;
+    margin-left: 4%;
+    font-weight: 500;
+}
+
+.kurumsal h5 a {
+    text-decoration: none;
+    color: #1F6BC1;
+}
+
+.saticilar {
+    width: 99%;
+    height: 160px;
+    margin-top: 5%;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+}
+
+.saticilar-item {
+    width: 95%;
+    height: 50px;
+    background-color: #EBF5FF;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    border-radius: 6px;
+
+}
+
+.saticilar-item span {
+    margin-left: 4%;
+}
+
+.saticilar-item i {
+    margin-left: 5%;
+    margin-right: 1%;
+    font-size: 13px;
+    color: #4A91E3;
+    margin-left: 1%;
+}
+
+.saticilar-item span a {
+    color: #4A91E3;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.saticilar-item span a:hover {
+    border-bottom: 1px solid #4A91E3;
+}
+
+.saticilar-item h3 {
+    font-size: 12px;
+    background-color: #08B449;
+    width: 30px;
+    border-radius: 5px;
+    height: 17.5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.saticilar-item p {
+    font-size: 11px;
+    margin-left: 1%;
+    font-weight: 400;
+}
+
+.saticilar-follow {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 3%;
+
+}
+
+.saticilar-follow a {
+    display: block;
+    width: 100%;
+
+}
+
+.saticilar-follow a:hover i {
+    background-color: #FEF4EB;
+    color: #F27A1A;
+}
+.saticilar-follow a span{
+    font-size: 15px;
+    margin-left: 70px;
+}
+.saticilar-follow a:hover span {
+    color: #F27A1A;
+}
+
+.saticilar-follow a i {
+    margin-left: 3%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    background-color: #F5F5F5;
+    color: #666666;
+
+}
+
+.saticilar-follow a p {
+    float: left;
+    font-size: 12px;
+    margin-top: 6.5%;
+    margin-left: 4%;
+}
+.saticilar-2 {
+    width: 99%;
+    height: 250px;
+    margin-top: 5%;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
 }
