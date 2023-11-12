@@ -493,8 +493,36 @@ footer {
 
 }
 
+.footerList-trendyol a {
+    text-decoration: none;
+}
+
+.footerList-about a {
+    text-decoration: none;
+}
+
+.footerList-kampanya a {
+    text-decoration: none;
+}
+
+.footerList-yardım a {
+    text-decoration: none;
+}
+
+.footerList-trendyol ul li a {
+    text-decoration: none;
+}
+
+.footerList-about ul li a {
+    text-decoration: none;
+}
+
 .footerList ul li a {
     color: white;
+}
+
+.footerList-kampanya ul li a {
+    text-decoration: none;
 }
 
 #footerLi {
@@ -504,6 +532,10 @@ footer {
 
 #footerLi>ul {
     display: flex;
+}
+
+.footerList-yardım ul li a {
+    text-decoration: none;
 }
 
 #footerLi i {
@@ -973,7 +1005,7 @@ footer {
     border-radius: 10px;
 }
 
-.kurumsal i{
+.kurumsal i {
     float: left;
     margin-top: 1%;
     margin-left: 4%;
@@ -1078,10 +1110,12 @@ footer {
     background-color: #FEF4EB;
     color: #F27A1A;
 }
-.saticilar-follow a span{
+
+.saticilar-follow a span {
     font-size: 15px;
     margin-left: 70px;
 }
+
 .saticilar-follow a:hover span {
     color: #F27A1A;
 }
@@ -1104,9 +1138,10 @@ footer {
     margin-top: 6.5%;
     margin-left: 4%;
 }
+
 .saticilar-2 {
     width: 99%;
-    height: 250px;
+    height: px;
     margin-top: 5%;
     border: 1px solid #E6E6E6;
     border-radius: 6px;
